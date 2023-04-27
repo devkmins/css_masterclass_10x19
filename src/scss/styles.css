@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #af7732;
+  color: #af7732;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows: 10% repeat(5, 16%) 10%;
+  font-size: 22px;
+  gap: 1px;
+}
+
+.title,
+.empty-top,
+.menu,
+.number,
+.empty__bottom-left,
+.explain,
+.empty__bottom-right {
+  background-color: #ffffff;
+}
+
+.title,
+.menu,
+.explain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  background-image: url("../../img/lp.jpg");
+  background-size: cover;
+  background-position: center center;
+  grid-column: 2/3;
+  grid-row: 2/7;
+}/*# sourceMappingURL=styles.css.map */
